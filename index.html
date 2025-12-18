@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>那曲锅庄舞</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+        
+        body {
+            background: #f8f9fa;
+            color: #333;
+        }
+        
+        /* 头部 */
+        header {
+            background: #8b0000;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+        
+        .subtitle {
+            font-size: 1.2rem;
+            opacity: 0.9;
+        }
+        
+        /* 主要内容 */
+        .content {
+            padding: 40px 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        section {
+            margin: 40px 0;
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        
+        h2 {
+            color: #8b0000;
+            margin-bottom: 20px;
+            border-left: 5px solid #d4af37;
+            padding-left: 15px;
+        }
+        
+        p {
+            line-height: 1.6;
+            margin-bottom: 15px;
+        }
+        
+        /* 图片展示 */
+        .image-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+        
+        .image-item {
+            border-radius: 8px;
+            overflow: hidden;
+        }
+        
+        .image-item img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            transition: transform 0.3s;
+        }
+        
+        .image-item img:hover {
+            transform: scale(1.05);
+        }
+        
+        /* 视频 */
+        .video-container {
+            position: relative;
+            padding-bottom: 56.25%;
+            height: 0;
+            margin-top: 20px;
+        }
+        
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border-radius: 8px;
+        }
+        
+        /* 页脚 */
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+        }
+        
+        /* 响应式 */
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2rem;
+            }
+            
+            .content {
+                padding: 20px 10px;
+            }
+            
+            section {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- 头部 -->
+    <header>
+        <h1>那曲锅庄舞</h1>
+        <p class="subtitle">藏族传统舞蹈文化</p>
+    </header>
+
+    <!-- 主要内容 -->
+    <div class="content">
+        <!-- 介绍 -->
+        <section>
+            <h2>锅庄舞简介</h2>
+            <p>锅庄舞是藏族人民喜爱的传统民间舞蹈，已有上千年的历史。那曲锅庄舞以其豪放、热烈的风格而闻名。</p>
+            <p>"锅庄"意为圆圈歌舞，人们手拉手围成圆圈，边唱边跳，表达欢乐和团结。</p>
+        </section>
+
+        <!-- 图片展示 -->
+        <section>
+            <h2>图片欣赏</h2>
+            <div class="image-grid">
+                <div class="image-item">
+                    <img src="锅庄舞2.jpg" alt="锅庄舞表演">
+                </div>
+                <div class="image-item">
+                    <img src="锅庄舞.jpg" alt="藏族服饰">
+                </div>
+                <div class="image-item">
+                    <img src="舞蹈《生息》.jpg" alt="集体舞蹈">
+                </div>
+            </div>
+        </section>
+
+        <!-- 特点 -->
+        <section>
+            <h2>主要特点</h2>
+            <p>1. 集体性：众人围成圆圈，共同起舞</p>
+            <p>2. 歌舞一体：边唱边跳，节奏明快</p>
+            <p>3. 服饰华丽：舞者身着传统藏族服饰</p>
+            <p>4. 地域特色：那曲锅庄风格豪迈奔放</p>
+        </section>
+
+        <!-- 视频 -->
+        <section>
+            <h2>视频欣赏</h2>
+            <p>观看锅庄舞的精彩表演</p>
+<style>
+                 video{
+                      width:300px;
+                      height:300px;
+                      }
+      </style>       
+                <video  src="那曲锅庄舞.mp4" controls></video>
+        </section>
+    </div>
+</body>
+</html>
